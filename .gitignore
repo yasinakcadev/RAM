@@ -1,0 +1,77 @@
+# Xcode
+#
+# Build output
+build/
+DerivedData/
+
+# Xcode project files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other Xcode temporary files
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+#
+# Add this if you use SPM
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+#
+# Uncomment if you use CocoaPods
+# Pods/
+# Podfile.lock
+
+# Carthage
+#
+# Add this if you use Carthage
+# Carthage/Build/
+
+# Accio dependency management
+# Dependencies/
+# .accio/
+
+# Fastlane
+#
+# Generated metadata and reports
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Archives and temporary files
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.hmap
+*.xccheckout
+
+# User-specific
+*.swp
+*.lock
+*.tmp
+*.temp
+*.log
+*.orig
+*.DS_Store
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM artifacts
+.swiftpm/xcode/xcshareddata/
+.swiftpm/xcode/package.xcworkspace/
+
